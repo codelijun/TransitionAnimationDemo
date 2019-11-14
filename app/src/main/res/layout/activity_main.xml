@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/start_second_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="交互动画示例"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/start_third_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="内容变换示例(简单)"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/start_fourth_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="内容变换示例(复杂)"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/start_fifth_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="共享元素之共享图片示例"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/start_sixth_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="共享元素之共享View示例"
+        android:textSize="16sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/start_seventh_activity"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:background="@drawable/rectangle_stroke_bg"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="共享元素之回调示例"-->
+<!--        android:textSize="16sp" />-->
+
+    <TextView
+        android:id="@+id/start_eighth_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="揭露效果"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/start_ninth_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="兼容21以下的共享元素动画"
+        android:textSize="16sp" />
+
+</LinearLayout>

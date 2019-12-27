@@ -8,13 +8,33 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/start_new_activity"
+        android:id="@+id/start_new_activity_with_activityAnim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:background="@drawable/rectangle_stroke_bg"
         android:padding="10dp"
-        android:text="打开新的Activity"
+        android:text="打开ActivityAnimation"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/start_new_activity_with_windowsAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="打开WindowAnimation"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/start_new_activity_with_doubleAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_stroke_bg"
+        android:padding="10dp"
+        android:text="打开DoubleAnimation"
         android:textSize="16sp" />
 
     <TextView

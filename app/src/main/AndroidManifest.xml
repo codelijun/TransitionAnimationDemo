@@ -20,8 +20,14 @@
 
         <activity android:name=".animation_style.NormalTransitionActivity" />
         <activity
-            android:name=".animation_style.StyleAnimationActivity"
-            android:theme="@style/AnimationTheme" />
+            android:name=".animation_style.StyleActivityAnimationActivity"
+            android:theme="@style/ActivityAnimationTheme" />
+        <activity
+            android:name=".animation_style.StyleWindowAnimationActivity"
+            android:theme="@style/WindowAnimationTheme" />
+        <activity
+            android:name=".animation_style.StyleDoubleAnimationActivity"
+            android:theme="@style/DoubleAnimationTheme" />
 
         <activity android:name=".content_transition.ContentTransitionActivity" />
         <activity android:name=".content_transition.ContentTransitionActivity2" />

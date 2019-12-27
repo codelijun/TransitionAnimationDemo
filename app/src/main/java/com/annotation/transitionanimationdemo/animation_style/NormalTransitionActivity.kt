@@ -12,8 +12,18 @@ class NormalTransitionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
-        start_new_activity.setOnClickListener {
-            val intent = Intent(this, StyleAnimationActivity::class.java)
+        start_new_activity_with_activityAnim.setOnClickListener {
+            val intent = Intent(this, StyleActivityAnimationActivity::class.java)
+            startActivity(intent)
+        }
+
+        start_new_activity_with_windowsAnim.setOnClickListener {
+            val intent = Intent(this, StyleWindowAnimationActivity::class.java)
+            startActivity(intent)
+        }
+
+        start_new_activity_with_doubleAnim.setOnClickListener {
+            val intent = Intent(this, StyleDoubleAnimationActivity::class.java)
             startActivity(intent)
         }
 

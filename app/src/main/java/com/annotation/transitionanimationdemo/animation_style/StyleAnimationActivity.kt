@@ -2,10 +2,12 @@ package com.annotation.transitionanimationdemo.animation_style
 
 import android.graphics.Color
 import android.os.Bundle
-import android.view.View
+import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.FrameLayout
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import com.annotation.transitionanimationdemo.R
 
 class StyleAnimationActivity : AppCompatActivity() {
 
@@ -13,11 +15,16 @@ class StyleAnimationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val contentView = FrameLayout(this)
         contentView.setBackgroundColor(Color.CYAN)
+        val imageView = ImageView(this)
+        imageView.setImageResource(R.mipmap.dark)
 
-        val itemView = View(this)
-        itemView.layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 400)
-        itemView.setBackgroundColor(Color.DKGRAY)
-        contentView.addView(itemView)
+        val layoutParams = FrameLayout.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.MATCH_PARENT
+        )
+        layoutParams.gravity = Gravity.CENTER
+        imageView.layoutParams = layoutParams
+        contentView.addView(imageView)
         setContentView(contentView)
     }
 }
